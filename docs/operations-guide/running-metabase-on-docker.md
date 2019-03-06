@@ -49,7 +49,7 @@ If you have previously run and configured your Metabase using the local Database
 ```
 3. Run your new image using `docker run` to get up and running again.
 ```
-     docker run -d -p 3000:3000 --name metabase mycompany/metabase-custom
+     docker run -d -p 3000:3000 --name metabase-custom mycompany/metabase-custom
      430bb02a37bb2471176e54ca323d0940c4e0ee210c3ab04262cb6576fe4ded6d
 ```
 Hopefully you have your previously configured Metabase Installation back. If it's not the one you expected try a different stopped container and do these steps again.
